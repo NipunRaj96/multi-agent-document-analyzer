@@ -79,7 +79,7 @@ python orchestration/main.py "What were the security audit findings?"
 
 ## ✅ Features
 
-- **Multi-Agent AI**: Uses Llama 3 (via Groq) for fast planning and Gemini Pro for high-quality writing.
+- **Multi-Agent AI**: Uses Llama 3 (via Groq) for fast planning and Gemini Flash for stability.
 - **Smart Retrieval**: Doesn't just match keywords; understands meaning (Semantic Search).
 - **Citations**: Tells you exactly which document the information came from.
 - **Production Ready**: Includes error handling, retries, logging, and validation.
