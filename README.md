@@ -57,7 +57,7 @@ Open `config.json` and paste your API keys:
   }
 }
 ```
-*(Optional: You can also set `GEMINI_API_KEY` and `GROQ_API_KEY` as environment variables).*
+> **Note**: This project uses `config.json` as a single unified interface for managing API keys and configuration values. Alternatively, you may use environment variables via a `.env` file if preferred. The system supports both approaches.
 
 ### 3. Start the Server (Knowledge Retriever)
 This background service handles document searching:
